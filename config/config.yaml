@@ -1,0 +1,26 @@
+organization: "smartlinx-legacy"
+project: "slx-worklinx-v6"
+repositories:
+  - "slx-worklinx-v6-app"
+  - "slx-azure-functions"
+
+auth:
+  auth_type: "pat"  # Options: "pat" or "oauth"
+  pat: "Ac5E7HQItUHdW4NNIjGbfRMPdnrq8Kjk6dQjywSIIeuUeZMEvQyMJQQJ99BDACAAAAATaWmzAAASAZDO3nYP"
+  # OAuth settings (only needed if auth_type is "oauth")
+  # client_id: "your-client-id"
+  # client_secret: "your-client-secret"
+  # tenant_id: "your-tenant-id"
+
+database:
+  path: "data/alerts.db"
+
+# Optional settings for alert collection
+collection:
+  # Filter criteria for alerts
+  criteria:
+    # severity: ["critical", "high"]
+    # state: ["active"]
+    # alert_type: "code"
+  # Maximum number of alerts to collect per repository
+  limit: 100

@@ -1,0 +1,42 @@
+{
+  "severity_counts": {
+    "high": 4,
+    "medium": 15
+  },
+  "state_counts": {
+    "active": 20,
+    "dismissed": 1,
+    "fixed": 79
+  },
+  "type_counts": {
+    "code": 7,
+    "dependency": 92,
+    "secret": 1
+  },
+  "alert_trend": [],
+  "top_repositories": [
+    {
+      "repository": "slx-azure-functions",
+      "count": 100
+    },
+    {
+      "repository": "slx-worklinx-v6-app",
+      "count": 100
+    }
+  ],
+  "top_rules": [],
+  "alerts_by_file": [
+    {
+      "file_path": "package-lock.json",
+      "count": 18
+    },
+    {
+      "file_path": "src/assets/geo/geojs.html",
+      "count": 2
+    },
+    {
+      "file_path": "src/app/app-modules/message-center/components/sms-compose-new-dialog/sms-compose-new-dialog.component.spec.ts",
+      "count": 1
+    }
+  ]
+}
