@@ -136,15 +136,6 @@ The agent consists of the following components:
 4. **Storage Layer**: Stores alerts in a SQLite database
 5. **Analysis Module**: Provides querying and analysis capabilities
 
-## Azure Resource Graph Integration
-
-While Azure Resource Graph is a powerful tool for querying Azure resources, it does not natively support querying Azure DevOps Advanced Security alerts. The agent uses the Azure DevOps REST APIs directly to collect alert data.
-
-For scenarios where correlation with Azure resources is needed, consider:
-1. Using the agent to collect alert data
-2. Storing the data in a format queryable by Resource Graph (e.g., Log Analytics)
-3. Using Resource Graph to query the stored data alongside other Azure resources
-
 ## Troubleshooting
 
 ### Common Issues
